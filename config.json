@@ -1,0 +1,15 @@
+{
+    "attacks": [
+        
+        {"start": 0, "end": 400, "type": "none"},
+        {"start": 400, "end": 800, "type": "gps"},
+        {"start": 800, "end": 1200, "type": "rgb_noise"},
+        {"start": 1200, "end": 1600, "type": "depth_tampering"},
+        {"start": 1600, "end": 2000, "type": "dvs_noise"},
+        {"start": 2000, "end": 2400, "type": "lidar_tampering"},
+        {"start": 2400, "end": 2800, "type": "dos"},
+        {"start": 2800, "end": 3200, "type": "steering_bias"},
+        {"start": 3200, "end": 3600, "type": "none"}
+        
+    ]
+}
